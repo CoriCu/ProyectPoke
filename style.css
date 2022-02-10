@@ -1,0 +1,249 @@
+
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+img{
+    max-width: 150%;
+    
+}
+a {
+    color:cornsilk;
+    text-align:right  ;
+}
+.pokedex__header{
+    background-image: url(html-color-codes-color-tutorials-hero.jpg);
+    min-height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+form{
+    display: flex;
+
+}
+.pokedex__header-title{
+    color: #ff4500;
+    margin:0 25px 0 10px ;
+    text-align: center ;
+    font-family: 'Bebas Neue', 'Bebas Neue', 'Fredoka One', 'Indie Flower', 'Lato', sans-serif,'Sigmar One';
+    text-transform: uppercase;
+    
+}
+
+.pokedex__header-search{
+    margin: auto;
+}
+
+.pokedex__header-search form{
+    border-color: blue;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.pokedex__header-search form button{
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+form button{
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+
+.poke-card::before {
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+    
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+}
+body {
+    background-image: url(./body.gif);
+    width: 100%;
+    height: 100%;
+    margin:0;
+    position: absolute;
+    
+
+    
+}
+footer {
+    width: 100%;
+    display: inline-block;
+    margin: 9em 0;
+    height: 70px;
+    background-color: rgb(197, 30, 30);
+    text-align: center ;
+    position: static;
+    bottom: 0;
+    
+}
+
+
+ul, ol {
+    list-style:none;
+    text-align: left ;
+    margin-left: -300px;
+    filter: url('#goo');
+    
+}
+
+.nav > li {
+    float:left;
+    list-style:none;
+    text-align: left ;
+    margin-left: 10px;
+    /* margin-left: 550px; */
+}
+
+.nav li a {
+    background-color:#fb6813;
+    color:rgb(66, 28, 28);
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    border: solid 1px;
+    border-radius: 1000px;
+    
+    
+}
+
+.nav li a:hover {
+    background-color:#ccbf0a;
+    top: -25%;
+    left: 20%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+    display: inline-block;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    /* min-width:140px; */
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+#menu {
+    margin:auto;
+    width: 500px;;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.link{
+    color: black;
+    font-family: Poppins, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+#fondoImg{
+    text-align:center;
+    color:#ff4500;
+    background-color: black;
+    border-radius: 100px;
+    text-shadow: 7px 4px 5px rgb(139, 32, 2);
+    font-size: xx-large;
+}
+p {
+    color:cornsilk;
+    
+}
+
+.cont {
+    text-align: center;
+    color: #ff4500;
+    background-color: #cc0605;
+    animation-duration: 3s;
+    border-radius: 100px;
+}
+h2 {
+    
+    font-size:x-large;
+    text-shadow: 7px 4px 5px rgb(10, 6, 5);
+}
+
+
